@@ -3,7 +3,9 @@
 :root {
     --black: #000;
     --gray: #828282;
-    --dark-gray: #282828;
+    --gray-200: #646464;
+    --gray-400: #424242;
+    --dark-gray: #1b1b1b;
     --white: #fff;
     
     --bs-font-sans-serif: "Open Sans", SF-Pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -256,4 +258,6 @@ ul.navbar li a:hover {
 .job-card p {
     font-size: .9rem;
     margin: 0;
+    display: inline-block;
 }
+

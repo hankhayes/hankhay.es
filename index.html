@@ -1,83 +1,128 @@
+
 <!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width" />
+      <title>Hank Hayes</title>
+      <meta name="description" content="Student, Programmer, Entrepreneur" />
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="icon" type="image/png" href="images/favicon.png">
+      <meta property="og:title" content="Hank Hayes" />
+      <meta property="og:description" content="Student, Programmer, Entrepreneur" />
+      <meta property="og:image" content="https://ibuildmyideas.com/images/og.png" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Hank Hayes" />
+      <meta name="twitter:description" content="Student, Programmer, Entrepreneur" />
+      <meta name="twitter:image" content="https://ibuildmyideas.com/images/og.png" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+   </head>
 
-<head>
-    <link href="style.css" rel="stylesheet" />
-    
-</head>
+   <body class="bg-white dark:bg-black text-black dark:text-white overflow-x-hidden">
+      <div id="hero" class="p-8 border-b border-neutral-100 dark:border-neutral-800">
+         <h1 class="text-md font-medium">Hank Hayes</h1>
+         <h2 class="text-sm opacity-40">Student, Programmer, Entrepreneur</h2>
+      </div>
 
-<header>
-    <p><a class="header" href="../index.html">Hank Hayes</a></p>
-    <p class="subheader">Student, Programmer, Entrepreneur</p>
-</header>
+      <ul id="professional" class="border-b border-neutral-100 dark:border-neutral-800">
+         <li class="pb-8">
+            <div class="p-8">
+               <h3 class="text-md font-medium">Work</h3>
+               <h4 class="text-md opacity-60">Innovation, Product, Higher Education</h4>
+            </div>
 
-<body>
-    <br>
-    <p>Work</p>
-    <p class="subtitle">Product, Higher Education, PM</p>
-    <div class="card-container">
-        <div class="job-card">
-            <div class="job-card-img-container">
-                <img src="images/apple-light.png">
+            <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8">
+               <div class="flex flex-col gap-2 w-64 shrink-0">
+                  <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-1 h-64 flex justify-center items-center">
+                     <img src="images/apple-light.png" style="width: 20%; height: 20%;">
+                  </div>
+                  <p class="text-sm opacity-40"><a href="https://apple.com">Apple</a> <span class="opacity-60">(2023 - Present)</span></p>
+               </div>
+
+               <div class="flex flex-col gap-2 w-64 shrink-0">
+                  <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-1 h-64 flex justify-center items-center">
+                     <img src="images/lpl-light.png" style="width: 20%; height: 20%;">
+                  </div>
+                  <p class="text-sm opacity-40"><a href="https://diagram.com">LPL Financial</a> <span class="opacity-60">(2023 - Present)</span></p>
+               </div>
+
+               <div class="flex flex-col gap-2 w-64 shrink-0">
+                  <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-1 h-64 flex justify-center items-center">
+                    <img src="images/dell-light.png" style="width: 23%; height: 23%;">
+                  </div>
+                  <p class="text-sm opacity-40"><a href="https://squareup.com">Dell Technologies</a> <span class="opacity-60">(Summer 2022)</span></p>
+               </div>
+
+               <div class="flex flex-col gap-2 w-64 shrink-0">
+                  <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-1 h-64 flex justify-center items-center">
+                     <img src="images/fci-light.png" style="width: 20%; height: 20%;">
+                  </div>
+                  <p class="text-sm opacity-40"><a href="https://cash.app">Floor Coverings Intl.</a> <span class="opacity-60">(Summer 2021)</span></p>
+               </div>
             </div>
-            <p class="subtitle"><a href="https://www.apple.com/">Apple Inc.</a></p>
-            <p style="color: var(--gray-400)">2023 - Present</p>
-        </div>
-        <div class="job-card">
-            <div class="job-card-img-container">
-                <img src="images/lpl-light.png">
+         </li>
+
+         <li class="pb-8">
+            <div class="p-8">
+               <h3 class="text-md font-medium">Projects</h3>
+               <h4 class="text-md opacity-60">Web, Mobile, Cyber</h4>
             </div>
-            <p class="subtitle"><a href="https://www.lpl.com/">LPL Financial</a></p>
-            <p style="color: var(--gray-400)">2023 - Present</p>
-        </div>
-        <div class="job-card">
-            <div class="job-card-img-container">
-                <img src="images/dell-light.png">
+
+            <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8">
+               <div class="flex flex-col gap-2">
+                  <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-1 h-64 flex justify-center items-center">
+                     <img src="images/globe.png" style="width: 20%; height: 20%;">
+                  </div>
+                  <p class="text-sm opacity-40"><a href="https://onuniverse.com">hankhayes.com</a></p>
+               </div>
+
+               <div class="flex flex-col gap-2">
+                  <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-1 h-64 flex justify-center items-center">
+                     <img src="images/longhorn.png" style="scale: 30%;">
+                  </div>
+                  <p class="text-sm opacity-40"><a href="https://family.co">Longhorn Recruiting</a></p>
+               </div>
+
+               <div class="flex flex-col gap-2">
+                  <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-1 h-64 flex justify-center items-center">
+                    <img src="images/godot.png" style="width: 20%; height: 20%;">
+                  </div>
+                  <p class="text-sm opacity-40"><a href="https://moneykit.com">The Last Wizard</a></p>
+               </div>
             </div>
-            <p class="subtitle"><a href="https://www.dell.com/en-us">Dell Technologies</a></p>
-            <p style="color: var(--gray-400)">2022</p>
-        </div>
-        <div class="job-card">
-            <div class="job-card-img-container">
-                <img src="images/fci-light.png">
-            </div>
-            <p class="subtitle"><a href="https://floorcoveringsinternational.com/">Floor Coverings Intl.</a></p>
-            <p style="color: var(--gray-400)">2021</p>
-        </div>
-    </div>
-    <p>Projects</p>
-    <p class="subtitle">Web, Mobile, Cyber</p>
-    <div class="card-container">
-        <div class="job-card">
-            <div class="job-card-img-container">
-                <img src="images/globe.png">
-            </div>
-            <p class="subtitle"><a href="projects/hankhayesdotcom.html">hankhayes.com</a></p>
-            <p style="color: var(--gray-400)">2023</p>
-        </div>
-        <div class="job-card">
-            <div class="job-card-img-container">
-                <img src="images/longhorn.png" style="object-fit: cover; overflow: visible; scale: 80%;">
-            </div>
-            <p class="subtitle"><a href="projects/longhornrecruiting.html">Longhorn Recruiting</a></p>
-            <p style="color: var(--gray-400)">2023</p>
-        </div>
-        <div class="job-card">
-            <div class="job-card-img-container">
-                <img src="images/godot.png">
-            </div>
-            <p class="subtitle"><a href="projects/thelastwizard.html">The Last Wizard</a></p>
-            <p style="color: var(--gray-400)">2023</p>
-        </div>
-    </div>
-    <p>More</p>
-    <p class="subtitle"><a href="about.html">About</a></p>
-    <p class="subtitle"><a href="now.html">Now</a></p>
-    <p class="subtitle"><a href="books.html">Reading list</a></p>
-    <br>
-    <p>Links</p>
-    <p class="subtitle"><a href="https://www.linkedin.com/in/hank-hayes">LinkedIn</a></p>
-    <p class="subtitle"><a href="https://github.com/hankhayes">GitHub</a></p>
-    <p class="subtitle"><a href="https://read.cv/hankhayes">Resume</a></p>
-    <p class="subtitle"><a href="mailto:hankhayes@utexas.edu">Email me</a></p>
-    <br>
-</body>
+         </li>
+      </ul>
+
+      <ul id="other" class="p-8">
+         <li class="pb-8">
+            <h3 class="text-md font-medium pb-4">Articles</h3>
+            <ul class="text-md opacity-60 flex flex-col gap-1">
+               <li><a href="https://www.youtube.com/watch?v=bslH4Mv1ZHA">Quickly create a personal website for (almost) free in less than 30 minutes <span class="opacity-60">(June 2023)</span></a></li>
+            </ul>
+         </li>
+
+         <li class="pb-8">
+            <h3 class="text-md font-medium pb-4">More</h3>
+            <ul class="text-md opacity-60 flex flex-col gap-1">
+                <li><a href="about.html">About</a></li>
+                <li><a href="now.html">Now</a></li>
+                <li><a href="books.html">Reading</a></li>
+            </ul>
+         </li>
+
+         <li>
+            <h3 class="text-md font-medium pb-4">Links</h3>
+            <ul class="text-md opacity-60 flex flex-col gap-1">
+               <li><a href="https://read.cv/jordan">Resume</a></li>
+               <li><a href="https://twitter.com/jsngr">Twitter</a></li>
+               <li><a href="https://linkedin.com/in/jordansinger">LinkedIn</a></li>
+               <li><a href="https://github.com/jordansinger">GitHub</a></li>
+               <li><a href="https://instagram.com/jordansinger">Instagram</a></li>
+               <li><a href="https://ibuildmyideas.substack.com">Newsletter</a></li>
+               <li><a href="mailto:singer@hey.com">singer@hey.com</a></li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>

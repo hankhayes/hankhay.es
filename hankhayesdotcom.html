@@ -36,11 +36,11 @@
 
         <ul id="professional" class="border-neutral-100 dark:border-neutral-800">
             <li class="pb-8">
-                <div class="p-8" style="max-width: 60%; margin-left: auto; margin-right: auto;">
+                <div class="p-8" style="margin-left: auto; margin-right: auto;" id="titleContainer">
                     <h3 class="text-md font-medium">hankhayes.com</h3>
                     <h4 class="text-md opacity-60">link to project</h4>
                 </div>
-                <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8" style="max-width: 60%; margin-left: auto; margin-right: auto;">
+                <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8" style="margin-left: auto; margin-right: auto;" id="headerContainer">
                     <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-0 h-32 flex justify-center items-center">
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50%" height="50%" viewBox="0 0 356.926 356.926" xml:space="preserve" class="fill-black dark:fill-white">
                             <g>
@@ -66,7 +66,7 @@
                         <h4 class="text-md opacity-60">2023</h4>
                     </div>
                 </div>
-                <div class="p-8" style="max-width: 60%; margin-left: auto; margin-right: auto;">
+                <div class="p-8" style="margin-left: auto; margin-right: auto;" id="bodyContainer">
                     <hr>
                     <br>
                     <h3 class="text-md font-medium">First attempt</h3>
@@ -85,14 +85,8 @@
                     <h4 class="text-md opacity-60">I finally made the realization that his site was built with a publicly available style sheet. This was great because it saved me a ton of time and headache. I enjoyed the work I put into the first few iterations of the site and learned a ton about web development, but I'm pretty happy with how it turned out. If you're a student looking to standup your own personal website, <a style="text-decoration: underline;" href="https://substack.com/@hankhayes">check out this article</a> I wrote on the topic!</h4>
                     <br>
                 </div>
-                <style>
-                    @media (max-width: 767px) { /* Media query for mobile devices (width less than or equal to 767px) */
-                        .p-8 {
-                            max-width: 100%;
-                        }
-                    }
-                </style>
             </li>
         </ul>
+        <script src="scripts/isMobile.js"></script>
     </body>
 </html>

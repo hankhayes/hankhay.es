@@ -30,17 +30,17 @@
 
     <body class="bg-white dark:bg-black text-black dark:text-white overflow-x-hidden">
         <div id="hero" class="p-8 border-b border-neutral-100 dark:border-neutral-800">
-            <h1 class="text-md font-medium">Hank Hayes</h1>
+            <h1 class="text-md font-medium"><a href="index.html">Hank Hayes</a></h1>
             <h2 class="text-sm opacity-40">Student, Programmer, Entrepreneur</h2>
         </div>
 
         <ul id="professional" class="border-neutral-100 dark:border-neutral-800">
             <li class="pb-8">
-                <div class="p-8">
+                <div class="p-8" style="margin-left: auto; margin-right: auto;" id="titleContainer">
                     <h3 class="text-md font-medium">Longhorn Recruiting</h3>
-                    <h4 class="text-md opacity-60">description</h4>
+                    <h4 class="text-md opacity-60">link to project</h4>
                 </div>
-                <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8">
+                <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8" style="margin-left: auto; margin-right: auto;" id="headerContainer">
                     <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-0 h-32 flex justify-center items-center">
                         <svg width="65%" height="65%" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="168.98" viewBox="0 0 331.62189 168.97772" width="331.62" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" class="fill-black dark:fill-white">
                             <g transform="matrix(1.25 0 0 -1.25 -390.11 305.09)">
@@ -58,21 +58,24 @@
                         <h4 class="text-md opacity-60">2023</h4>
                     </div>
                 </div>
-                <div class="p-8">
-                    <h3 class="text-md font-medium">(work in progress)</h3>
+                <div class="p-8" style="margin-left: auto; margin-right: auto;" id="bodyContainer">
+                    <hr>
                     <br>
                     <h3 class="text-md font-medium">Background</h3>
-                    <h4 class="text-md opacity-60">MIS 333K, affectionately known as "Killer K", is one of the hardest classes in the MIS major. It gets its name from the semester long group project with a list of requirements that few groups even come close to completing. Groups typicall pull multiple all nighters as the deadline approaches, hoping to deploy as many pieces of functionality as possible.</h4>
+                    <h4 class="text-md opacity-60">MIS 333K, affectionately known as "Killer K", is one of the hardest classes in the MIS major. Students take on a semester long group project with a list of requirements that few groups even come close to completing. Groups pull all nighters as the deadline approaches, hoping to finish as much of the requirements as possible.</h4>
                     <br>
-                    <h3 class="text-md font-medium">Implementation</h3>
-                    <h4 class="text-md opacity-60">We were given a large set of sample data that we needed to parse and ETL into our Azure database. This was actually a fairly difficult process as it required learning how to write VBA scripts for excel for each individual data source. We used the ASP.NET framework to build out most of the functionality, the entity framework for our object-relation mapping, and identity to handle user management. Since we were constrained by time, we used Bootstrap to create our entire UI. The rest of our application logic was written in C#.</h4>
+                    <h3 class="text-md font-medium">Project overview</h3>
                     <h4 class="text-md opacity-60">Longhorn Recruiting handled the entire university recruiting process. Some of the recruiter functionality included creating job applications, inviting students to interviews, and creating block room reservations for their interviews. Some of the student functionality included applying to jobs, scheduling interviews, and getting email notifications based on hiring decisions.</h4>
                     <br>
+                    <h3 class="text-md font-medium">What we did</h3>
+                    <h4 class="text-md opacity-60">We were given a large set of sample data that we needed to parse and ETL into our Azure database. I had to quickly learn VBA to extract tons of data from multiple data sources. We built Longhorn Recruiting on the ASP.NET framework, used the Entity Framework for our object-relation mapping, and Identity to handle user management. We used Bootstrap to create our entire UI, and all application logic was written in C#.</h4>
+                    <br>
                     <h3 class="text-md font-medium">Results</h3>
-                    <h4 class="text-md opacity-60">This project was one of my favorite things about the MIS degree and will forever remain one of my core college memories. My group and I worked really hard throughout the semester and were very proud of our final solution. Every team was competing against each other for prize money, and we ended up securing 6th place out of 35+ teams. One of my biggest takeaways from this project was the importance of teamwork and communication. Even though we were more than technically capable of completing the project, we suffered from lapses in communication that limited our output.</h4>
+                    <h4 class="text-md opacity-60">This project was one of my favorite things about the MIS degree and will forever remain one of my core college memories. My group and I worked really hard throughout the semester and were very proud of our final solution. We ended up securing 6th place out of 33 teams.</h4>
                     <br>
                 </div>
             </li>
         </ul>
+        <script src="scripts/isMobile.js"></script>
     </body>
 </html>

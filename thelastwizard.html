@@ -30,17 +30,17 @@
 
     <body class="bg-white dark:bg-black text-black dark:text-white overflow-x-hidden">
         <div id="hero" class="p-8 border-b border-neutral-100 dark:border-neutral-800">
-            <h1 class="text-md font-medium">Hank Hayes</h1>
+            <h1 class="text-md font-medium"><a href="index.html">Hank Hayes</a></h1>
             <h2 class="text-sm opacity-40">Student, Programmer, Entrepreneur</h2>
         </div>
 
         <ul id="professional" class="border-neutral-100 dark:border-neutral-800">
             <li class="pb-8">
-                <div class="p-8">
+                <div class="p-8" style="margin-left: auto; margin-right: auto;" id="titleContainer">
                     <h3 class="text-md font-medium">The Last Wizard</h3>
                     <h4 class="text-md opacity-60">description</h4>
                 </div>
-                <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8">
+                <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8" style="margin-left: auto; margin-right: auto;" id="headerContainer">
                     <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-0 h-32 flex justify-center items-center">
                         <svg width="50%" height="50%" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve" class="fill-black dark:fill-white">
                             <switch>
@@ -62,7 +62,9 @@
                         <h4 class="text-md opacity-60">2023</h4>
                     </div>
                 </div>
-                <div class="p-8">
+                <div class="p-8" style="margin-left: auto; margin-right: auto;" id="bodyContainer">
+                    <hr>
+                    <br>
                     <h3 class="text-md font-medium">(work in progress)</h3>
                     <br>
                     <h3 class="text-md font-medium">Background</h3>
@@ -78,5 +80,6 @@
                 </div>
             </li>
         </ul>
+        <script src="scripts/isMobile.js"></script>
     </body>
 </html>

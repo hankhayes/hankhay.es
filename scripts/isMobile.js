@@ -11,7 +11,7 @@ if (isMobile()) {
     headerElement.style.maxWidth = '100%';
     bodyElement.style.maxWidth = '100%';
 } else {
-    titleElement.style.maxWidth = '60%';
-    headerElement.style.maxWidth = '60%';
-    bodyElement.style.maxWidth = '60%';
+    titleElement.style.maxWidth = '75%';
+    headerElement.style.maxWidth = '75%';
+    bodyElement.style.maxWidth = '75%';
 }

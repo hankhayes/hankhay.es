@@ -11,10 +11,10 @@ if (isMobile()) {
     titleElement.style.maxWidth = '100%';
     headerElement.style.maxWidth = '100%';
     bodyElement.style.maxWidth = '100%';
-    imageElement.style.maxWidth = '75%'
+    imageElement.style.maxWidth = '100%'
 } else {
     titleElement.style.maxWidth = '75%';
     headerElement.style.maxWidth = '75%';
     bodyElement.style.maxWidth = '75%';
-    imageElement.style.maxWidth = '50%'
+    imageElement.style.maxWidth = '75%'
 }

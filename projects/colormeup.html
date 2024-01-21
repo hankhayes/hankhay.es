@@ -3,71 +3,62 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width" />
-        <title>Hank Hayes</title>
+        <title>Hank Hayes - ColorMeUp</title>
         <meta name="description" content="Student, Developer, Entrepreneur" />
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="icon" type="image/png" href="images/favicon.png">
-        <meta property="og:title" content="Hank Hayes" />
+        <link rel="icon" type="image/png" href="../images/favicon.png">
+        <!-- <meta property="og:title" content="Hank Hayes" />
         <meta property="og:description" content="Student, Developer, Entrepreneur" />
-        <meta property="og:image" content="https://hankhayes.com/images/colormeup.png" />
+        <meta property="og:image" content="../colormeup.png" /> -->
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Hank Hayes" />
         <meta name="twitter:description" content="Student, Developer, Entrepreneur" />
-        <meta name="twitter:image" content="https://hankhayes.com/images/og.png" />
+        <meta name="twitter:image" content="../images/og.png" />
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
         <style>
-            /* Define the styles within a <style> block */
             .no-scrollbar::-webkit-scrollbar {
                 display: none; /* Hide scrollbar for Chrome, Safari, and newer Edge */
             }
-
             .no-scrollbar {
                 scrollbar-width: none; /* Hide scrollbar for Firefox */
             }
         </style>
     </head>
 
-    <body class="bg-white dark:bg-black text-black dark:text-white overflow-x-hidden">
+    <body class="bg-white dark:bg-black text-black dark:text-white overflow-x-hidden no-scrollbar">
         <div id="hero" class="p-8 border-b border-neutral-100 dark:border-neutral-800">
             <h1 class="text-md font-medium"><a href="../index.html">Hank Hayes</a></h1>
             <h2 class="text-sm opacity-40">Student, Developer, Entrepreneur</h2>
         </div>
 
+        <ul id="projects" class="p-8 border-b border-neutral-100 dark:border-neutral-800">
+            <h3 class="text-md font-medium">ColorMeUp</h3>
+            <h4 class="text-md opacity-60 pb-4">iOS Application</h3>
+            <li>
+                <ul class="text-md flex flex-col gap-1">
+                    <li class="text-sm">Technologies used</li>
+                    <li class="text-sm opacity-60 pb-3">SwiftUI, SwiftData</li>
+                    <li class="text-sm">Completed</li>
+                    <li class="text-sm opacity-60">2024</li>
+                </ul>
+            </li>
+        </ul>
+
         <ul id="professional" class="border-neutral-100 dark:border-neutral-800">
             <li class="pb-8">
-                <div class="p-8" style="margin-left: auto; margin-right: auto;" id="titleContainer">
-                    <h3 class="text-md font-medium">ColorMeUp</h3>
-                    <h4 class="text-md opacity-60">iOS Application</h4>
-                </div>
-                <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8" style="margin-left: auto; margin-right: auto;" id="headerContainer">
-                    <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-0 h-32 flex justify-center items-center">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="35%" height="35%" viewBox="0 0 300.000000 300.000000" preserveAspectRatio="xMidYMid meet" class="fill-black dark:fill-white">
-                            <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" stroke="none">
-                                <path d="M1306 2364 c-343 -68 -731 -336 -1036 -715 -116 -145 -116 -144 -96 -174 44 -67 189 -237 284 -333 276 -276 562 -448 846 -506 98 -21 294 -21 392 0 298 61 577 234 880 545 110 113 264 299 264 319 0 29 -220 283 -366 421 -253 240 -525 394 -788 444 -95 18 -286 18 -380 -1z m359 -240 c217 -56 401 -241 461 -464 22 -86 22 -234 0 -320 -46 -171 -170 -329 -321 -407 -108 -56 -189 -76 -305 -76 -116 0 -197 20 -305 76 -152 79 -277 237 -322 408 -22 85 -21 234 1 319 93 347 442 552 791 464z m-733 -101 c-138 -160 -202 -326 -202 -523 0 -186 64 -358 185 -503 l66 -78 -43 27 c-93 59 -198 144 -307 249 -107 103 -271 289 -271 306 0 15 154 193 242 281 48 48 118 111 155 141 64 52 212 157 220 157 3 0 -18 -26 -45 -57z m1248 -52 c100 -75 285 -254 382 -370 43 -52 78 -97 78 -101 0 -3 -38 -51 -83 -106 -143 -169 -350 -357 -495 -448 l-44 -27 54 63 c138 164 198 322 198 525 0 193 -63 353 -203 517 l-51 58 45 -27 c24 -16 78 -53 119 -84z"/>
-                                <path d="M1388 1861 c-76 -25 -119 -53 -172 -112 -64 -71 -90 -143 -90 -249 0 -118 27 -185 108 -266 81 -81 148 -108 266 -108 118 0 185 27 266 108 81 81 108 148 108 266 0 118 -27 185 -108 266 -45 44 -77 67 -121 84 -82 31 -183 36 -257 11z"/>
-                            </g>
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-md font-medium">Technologies</h3>
-                        <h4 class="text-md opacity-60">SwiftUI, SwiftData</h4>
-                        <br>
-                        <h3 class="text-md font-medium">Completed</h3>
-                        <h4 class="text-md opacity-60">2024</h4>
-                    </div>
-                </div>
                 <div class="p-8" style="margin-left: auto; margin-right: auto;" id="bodyContainer">
-                    <hr>
-                    <br>
+                    <h3 class="text-md font-medium">Ideation</h3>
                     <h4 class="text-md opacity-60" style="padding-bottom: 12px">When I started with Apple, one of the first things my Pod (small group of coworkers) did together was design an app. We came up with ColorMeUp to help colorblind designers keep track of colors they're using in their projects.</h4>
                     <!-- List -->
+                    <h3 class="text-md font-medium">Learning</h3>
                     <h4 class="text-md opacity-60">As this was my first foray into app development with SwiftUI, I had a lot to learn:</h4>
                     <h4 class="text-md opacity-60">- SwiftUI syntax</h4>
                     <h4 class="text-md opacity-60">- Passing/changing data with @Binding variables</h4>
                     <h4 class="text-md opacity-60" style="padding-bottom: 12px">- SwiftData for persistent storage</h4>
                     <h4 class="text-md opacity-60" style="padding-bottom: 12px">One of the more interesting problems I came across was calculating color luminance. The goal with this was to determine whether black or white contrasted most with a given set of RGB color channels (`red: 255, green: 255, blue: 255` for example). This calculation was crucial in order to create a readable label on top of any color.</h4>
                     <!-- List -->
+                    <h3 class="text-md font-medium">Issues</h3>
                     <h4 class="text-md opacity-60">This project took about 20 hours to complete. Although its 100% functional, there are some small issues that need fixing in order to provide are more seamless user experience. I wish I had the time to really polish this app, but I simply don't at this time. Here are some problems I've identified that would be first on my list to fix:</h4>
                     <h4 class="text-md opacity-60">- Colors are not always categorized as expected</h4>
                     <h4 class="text-md opacity-60">- Camera view should be its own view, not an embedded view</h4>

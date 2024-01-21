@@ -2,33 +2,40 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <!-- Sets page width -->
         <meta name="viewport" content="width=device-width" />
+        <!-- Tab title -->
         <title>Hank Hayes</title>
+        <!-- Search engine description -->
         <meta name="description" content="Student, Developer, Entrepreneur" />
+        <!-- External css -->
         <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Tab icon -->
         <link rel="icon" type="image/png" href="images/favicon.png">
+        <!-- Social media -->
         <meta property="og:title" content="Hank Hayes" />
         <meta property="og:description" content="Student, Developer, Entrepreneur" />
         <meta property="og:image" content="images/og.png" />
+        <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Hank Hayes" />
         <meta name="twitter:description" content="Student, Developer, Entrepreneur" />
         <meta name="twitter:image" content="https://hankhayes.com/images/og.png" />
+        <!-- Tailwind -->
         <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Inter font -->
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
         <style>
-            /* Define the styles within a <style> block */
             .no-scrollbar::-webkit-scrollbar {
                 display: none; /* Hide scrollbar for Chrome, Safari, and newer Edge */
             }
-
             .no-scrollbar {
                 scrollbar-width: none; /* Hide scrollbar for Firefox */
             }
         </style>
     </head>
 
-    <body class="bg-white dark:bg-black text-black dark:text-white overflow-x-hidden">
+    <body class="bg-white dark:bg-black text-black dark:text-white overflow-x-hidden no-scrollbar">
         <div id="hero" class="p-8 border-b border-neutral-100 dark:border-neutral-800">
             <h1 class="text-md font-medium">Hank Hayes</h1>
             <h2 class="text-sm opacity-40">Student, Developer, Entrepreneur</h2>
@@ -40,7 +47,7 @@
                     <h3 class="text-md font-medium">Work</h3>
                     <h4 class="text-md opacity-60">Product, Software, Project Management</h4>
                 </div>
-                <!-- Both scrolling sections-->
+                <!-- Work scrolling sections-->
                 <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8">
                     <!-- Apple -->
                     <div class="flex flex-col gap-2 w-64 shrink-0">
@@ -98,6 +105,7 @@
             </li>
         </ul>
 
+        <!-- Projects -->
         <ul id="projects" class="p-8 border-b border-neutral-100 dark:border-neutral-800">
             <li>
                 <h3 class="text-md font-medium">Projects</h3>
@@ -114,6 +122,7 @@
             </li>
         </ul>
 
+        <!-- Others -->
         <ul id="other" class="p-8">
             <li class="pb-8">
                 <h3 class="text-md font-medium pb-4">More</h3>

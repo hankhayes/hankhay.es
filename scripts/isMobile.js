@@ -3,21 +3,18 @@ function isMobile() {
 }
 
 const titleElement = document.getElementById('titleContainer');
-const headerElement = document.getElementById('headerContainer');
 const bodyElement = document.getElementById('bodyContainer');
 const imageElement = document.getElementById('imageContainer');
 const videoElement = document.getElementById('videoContainer');
 
 if (isMobile()) {
     titleElement.style.maxWidth = '100%';
-    headerElement.style.maxWidth = '100%';
     bodyElement.style.maxWidth = '100%';
     imageElement.style.maxWidth = '100%';
     videoElement.style.maxWidth = '100%';
 } else {
-    titleElement.style.maxWidth = '75%';
-    headerElement.style.maxWidth = '75%';
-    bodyElement.style.maxWidth = '75%';
+    titleElement.style.maxWidth = '50%';
+    bodyElement.style.maxWidth = '50%';
     imageElement.style.maxWidth = '50%';
     videoElement.style.maxWidth = '50%';
 }

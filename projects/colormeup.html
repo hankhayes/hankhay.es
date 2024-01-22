@@ -23,6 +23,11 @@
             .no-scrollbar {
                 scrollbar-width: none; /* Hide scrollbar for Firefox */
             }
+            code {
+                font-family: Consolas,"courier new";
+                border-radius: 5px;
+                padding: 1px;
+            }
         </style>
     </head>
 
@@ -32,22 +37,24 @@
             <h2 class="text-sm opacity-40">Student, Developer, Entrepreneur</h2>
         </div>
 
-        <ul id="projects" class="p-8 border-b border-neutral-100 dark:border-neutral-800">
-            <h3 class="text-md font-medium">ColorMeUp</h3>
-            <h4 class="text-md opacity-60 pb-4">iOS Application</h3>
+        <ul id="info" class="p-8 border-neutral-100 dark:border-neutral-800">
             <li>
-                <ul class="text-md flex flex-col gap-1">
-                    <li class="text-sm">Technologies used</li>
-                    <li class="text-sm opacity-60 pb-3">SwiftUI, SwiftData</li>
-                    <li class="text-sm">Completed</li>
-                    <li class="text-sm opacity-60">2024</li>
-                </ul>
+                <div style="margin-left: auto; margin-right: auto;" class="resizable" id="titleContainer">
+                    <h3 class="text-md font-medium">🎨 ColorMeUp</h3>
+                    <h4 class="text-md opacity-60 pb-3">iOS Application</h4>
+                    <h3 class="text-sm font-medium">Technologies used</h3>
+                    <h4 class="text-sm opacity-60 pb-3">SwiftUI, SwiftData</h4>
+                    <h3 class="text-sm font-medium">Completed</h3>
+                    <h4 class="text-sm opacity-60">January 2024</h4>
+                    <br>
+                    <hr class="border-neutral-100 dark:border-neutral-800">
+                </div>
             </li>
         </ul>
 
-        <ul id="professional" class="border-neutral-100 dark:border-neutral-800">
-            <li class="pb-8">
-                <div class="p-8" style="margin-left: auto; margin-right: auto;" id="bodyContainer">
+        <ul id="body" class="pl-8 pr-8 border-b border-neutral-100 dark:border-neutral-800">
+            <li>
+                <div style="margin-left: auto; margin-right: auto;" class="resizable" id="bodyContainer">
                     <h3 class="text-md font-medium">Ideation</h3>
                     <h4 class="text-md opacity-60" style="padding-bottom: 12px">When I started with Apple, one of the first things my Pod (small group of coworkers) did together was design an app. We came up with ColorMeUp to help colorblind designers keep track of colors they're using in their projects.</h4>
                     <!-- List -->
@@ -56,7 +63,7 @@
                     <h4 class="text-md opacity-60">- SwiftUI syntax</h4>
                     <h4 class="text-md opacity-60">- Passing/changing data with @Binding variables</h4>
                     <h4 class="text-md opacity-60" style="padding-bottom: 12px">- SwiftData for persistent storage</h4>
-                    <h4 class="text-md opacity-60" style="padding-bottom: 12px">One of the more interesting problems I came across was calculating color luminance. The goal with this was to determine whether black or white contrasted most with a given set of RGB color channels (`red: 255, green: 255, blue: 255` for example). This calculation was crucial in order to create a readable label on top of any color.</h4>
+                    <h4 class="text-md opacity-60" style="padding-bottom: 12px">One of the more interesting problems I came across was calculating color luminance. The goal with this was to determine whether black or white contrasted most with a given set of RGB color channels (<code class="bg-neutral-300 dark:bg-neutral-700">red: 255, green: 255, blue: 255</code> for example). This calculation was crucial in order to create a readable label on top of any color.</h4>
                     <!-- List -->
                     <h3 class="text-md font-medium">Issues</h3>
                     <h4 class="text-md opacity-60">This project took about 20 hours to complete. Although its 100% functional, there are some small issues that need fixing in order to provide are more seamless user experience. I wish I had the time to really polish this app, but I simply don't at this time. Here are some problems I've identified that would be first on my list to fix:</h4>
@@ -65,10 +72,8 @@
                     <h4 class="text-md opacity-60">- Color-blindness picker in settings doesn't update its own color when changed</h4>
                     <h4 class="text-md opacity-60" style="padding-bottom: 12px">- The Library view is loads every time it's presented, rather than once at app launch</h4>
                     <br>
-                    <h3 class="text-md font-medium">Links</h3>
-                    <h4 class="text-md opacity-60">
-                        <a style="text-decoration: underline;" href="https://github.com/hankhayes/ColorMeUp">GitHub</a>
-                    </h4>
+                    <h4 class="text-md opacity-60">Check out the code on <a style="text-decoration: underline;" href="https://github.com/hankhayes/ColorMeUp"> my Github</a></h4>
+                    <br>
                 </div>
             </li>
         </ul>

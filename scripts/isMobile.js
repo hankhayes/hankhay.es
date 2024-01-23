@@ -15,6 +15,6 @@ if (isMobile()) {
 } else {
     titleElement.style.maxWidth = '50%';
     bodyElement.style.maxWidth = '50%';
-    imageElement.style.maxWidth = '50%';
-    videoElement.style.maxWidth = '50%';
+    imageElement.style.maxWidth = '60%';
+    videoElement.style.maxWidth = '60%';
 }

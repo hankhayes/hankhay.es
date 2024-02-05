@@ -23,6 +23,9 @@
             .no-scrollbar {
                 scrollbar-width: none; /* Hide scrollbar for Firefox */
             }
+            ::-webkit-scrollbar {
+                width: 0em;
+            }
             a:hover {
                 text-decoration: underline;
             }
@@ -51,7 +54,7 @@
             </li>
         </ul>
 
-        <ul id="body" class="pl-8 pr-8 border-b border-neutral-100 dark:border-neutral-800">
+        <ul id="body" class="pl-8 pr-8 border-neutral-100 dark:border-neutral-800">
             <li>
                 <div style="margin-left: auto; margin-right: auto;" class="resizable" id="bodyContainer">
                     <h3 class="text-md font-medium">Ideation</h3>

@@ -3,17 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width" />
-        <title>Hank Hayes - ColorMeUp</title>
+        <title>Hank Hayes - CalAvail</title>
         <meta name="description" content="Student, Developer, Entrepreneur" />
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" type="image/png" href="../images/favicon.png">
-        <meta property="og:title" content="Hank Hayes - ColorMeUp" />
+        <meta property="og:title" content="Hank Hayes - CalAvail" />
         <meta property="og:description" content="Student, Developer, Entrepreneur" />
-        <meta property="og:image" content="../images/titles/colormeuptitle.png" />
+        <meta property="og:image" content="../images/titles/og.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Hank Hayes - ColorMeUp" />
+        <meta name="twitter:title" content="Hank Hayes - CalAvail" />
         <meta name="twitter:description" content="Student, Developer, Entrepreneur" />
-        <meta name="twitter:image" content="../images/titles/colormeuptitle.png" />
+        <meta name="twitter:image" content="../images/titles/og.png" />
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
         <style>
@@ -43,8 +43,13 @@
         <ul id="info" class="p-8 border-neutral-100 dark:border-neutral-800">
             <li>
                 <div style="margin-left: auto; margin-right: auto;" class="resizable" id="titleContainer">
-                    <h3 class="text-lg font-medium">Projects</h3>
-                    <!-- <h4 class="text-md opacity-60 pb-3">iOS Application</h4> -->
+                    <h3 class="text-md font-medium">📆 CalAvail</h3>
+                    <h4 class="text-md opacity-60 pb-3">Raycast extension</h4>
+                    <h3 class="text-sm font-medium">Technologies used</h3>
+                    <h4 class="text-sm opacity-60 pb-3">React, Typescript, Applescript</h4>
+                    <h3 class="text-sm font-medium">Completed</h3>
+                    <h4 class="text-sm opacity-60 pb-3">Ongoing</h4>
+                    <h3 class="text-sm font-medium">CalAvail will be on Github soon</h3>
                     <br>
                     <hr class="border-neutral-100 dark:border-neutral-800">
                 </div>
@@ -54,23 +59,12 @@
         <ul id="body" class="pl-8 pr-8 border-neutral-100 dark:border-neutral-800">
             <li>
                 <div style="margin-left: auto; margin-right: auto;" class="resizable" id="bodyContainer">
-                    <h3 class="text-md font-medium"><a href="calavail.html">📆 CalAvail</a></h3>
-                    <h4 class="text-md opacity-60" style="padding-bottom: 12px">A raycast extension that gets your availability as text from the macOS calendar</h4>
-                    
-                    <h3 class="text-md font-medium"><a href="colormeup.html">🎨 ColorMeUp</a></h3>
-                    <h4 class="text-md opacity-60" style="padding-bottom: 12px">An iOS application for colorblind designers and individuals</h4>
+                    <h3 class="text-md font-medium">Ideation</h3>
+                    <h4 class="text-md opacity-60" style="padding-bottom: 12px">I was as big fan of Cron calendar when it came out a few years ago, mainly for its feature that let you get your availability as text, so you could easily tell someone when you are free. I use the macOS calendar now, which unfortunately doesn't have a similar feature. CalAvail is my solution to this problem.</h4>
 
-                    <h3 class="text-md font-medium"><a href="orgsync.html">👥 OrgSync</a></h3>
-                    <h4 class="text-md opacity-60" style="padding-bottom: 12px">An iOS application to manage student organizations</h4>
-
-                    <h3 class="text-md font-medium"><a href="vikingshipkayaks.html">🚣 Viking Ship Kayaks</a></h3>
-                    <h4 class="text-md opacity-60" style="padding-bottom: 12px">A redesigned website for a local Austin client</h4>
-
-                    <h3 class="text-md font-medium"><a href="longhornrecruiting.html">🐂 Longhorn Recruiting</a></h3>
-                    <h4 class="text-md opacity-60" style="padding-bottom: 12px">A full service student recruiting platform</h4>
-
-                    <h3 class="text-md font-medium"><a href="thelastwizard.html">🧙🏼‍♂️ The Last Wizard</a></h3>
-                    <h4 class="text-md opacity-60" style="padding-bottom: 12px">A fantasy adventure game</h4>
+                    <h3 class="text-md font-medium">Challenges</h3>
+                    <h4 class="text-md opacity-60" style="padding-bottom: 12px">The biggest challenge right now is retrieving a list of calendar events on a given day. Regular events are easy to get, but repeat events are a whole different story. The Calendar app treats a repeat event as one event, which is its initial occurrence, no matter how many times it repeats. This means that you have to find all repeat events, parse the rules of the repeating event (repeat weekly, MWF, until x date, etc), and then use them to calculate whether or not one of its repeats falls on the current day. It's a long and manual process.</h4>
+                    <br>
                 </div>
             </li>
         </ul>
